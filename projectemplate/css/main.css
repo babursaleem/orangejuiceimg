@@ -142,6 +142,11 @@ footer {
   }
 }
 
+@media (max-width: 455px)  {
+  li {
+    padding: 4px;
+  }
+}
 @media (max-width: 400px)  {
   .ojimage, .juice, .orange {
     width: 150px;
@@ -151,6 +156,35 @@ footer {
 @media (max-width: 440px) {
   .liquidgem li {
     font size: 20px;
+  }
+
+}
+
+@media (max-width:720px) {
+  p {
+    font-size: 20px;
+  }
+@media (max-width: 720px) {
+  .ojimage {
+    width: 160px;
+    }
+  }
+
+  @media (max-width: 620px) {
+    ul {
+      padding-right: 106px;
+    }
+}
+
+@media (max-width: 610px) {
+  img {
+    width: 200px;
+  }
+}
+
+@media (max-width:450px) {
+  ul {
+    font-size: 0px;
   }
 
 }
